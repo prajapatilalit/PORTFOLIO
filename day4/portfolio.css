@@ -142,7 +142,7 @@ header .navigation a {
 }
 
 header .navigation a:hover {
-  color: #3a6cf4;
+  color: #4e9eff;
 }
 
 header.sticky .navigation a:hover {
@@ -224,4 +224,111 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.about .content .col-right .content-title {
+  font-size: 2em;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.about .content .col-right .paragraph-text {
+  font-size: 1em;
+}
+
+.skills {
+  background: #000016;
+}
+
+.skills .content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.skills .content .col-left {
+  position: relative;
+  width: 46%;
+}
+
+.skills .content .col-right {
+  position: relative;
+  width: 46%;
+}
+
+.skills .content .col-right .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.skills .content .col-right .bar .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.skills .content .col-right .bar .info span {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.skills .content .col-right .bar .line {
+  position: relative;
+  width: 100%;
+  height: 15px;
+  background: #ccc;
+  border-radius: 2px;
+}
+
+.skills .content .col-right .bar .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
+.skills .content .col-right .bar .html::before {
+  width: 90%;
+  background: #e45126;
+}
+
+.skills .content .col-right .bar .css::before {
+  width: 90%;
+  background: #3a6cf4;
+}
+
+.skills .content .col-right .bar .javasript::before {
+  width: 70%;
+  background: #3a6c;
+}
+
+.skills .content .col-right .bar .reactjs::before {
+  width: 90%;
+  background: #648134;
+}
+
+.skills .content .col-right .bar .react-hook::before {
+  width: 80%;
+  background: #16acb1;
+}
+
+.skills .content .col-right .bar .react-redux::before {
+  width: 80%;
+  background: #a0640a;
+}
+
+.skills .content .col-right .bar .bootstrap::before {
+  width: 70%;
+  background: #770a69;
+}
+
+.skills .content .col-right .bar .nodejs::before {
+  width: 60%;
+  background: #0d1b66;
 }
